@@ -16,6 +16,16 @@ body {
     height: 174px;
     flex-direction: column;
     padding: 2rem;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-bottom {
+    display: flex;
 }
 
 /* .header-top {
@@ -46,12 +56,15 @@ body {
     font-weight: 500;
 }
 
+
 .btn-purple:hover {
     background-color: #8B48BFB2;
     cursor: pointer;
 }
 
 /* .container-nav { */
+
+
 .contact-footer {
     background: rgba(139, 72, 191, 1);
     width: 4rem;
@@ -64,7 +77,11 @@ body {
     font-size: 0.9rem;
 }
 
-.header-nav {
+
+/* .header-nav { */
+
+.container-nav {
+
     display: flex;
     gap: 1.75rem;
 }
@@ -208,6 +225,7 @@ body {
     margin: 0 0 0 5.8rem;
 }
 
+
 .container-players {
     margin: 2rem;
 }
@@ -225,6 +243,7 @@ body {
 .footer-nav {
     display: flex;
 }
+
 
 .footer-nav a{
     text-decoration: none; 
@@ -328,7 +347,9 @@ body {
         /* font-weight: 500;
         line-height: 25.52px; */
         margin: 0 1rem;
+
   }
+
 }
 
 .container-h1 p {
