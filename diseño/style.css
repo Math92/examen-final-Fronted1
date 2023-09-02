@@ -149,6 +149,10 @@ body {
     display: none;
 }
 
+.hide-elements {
+    display: block;
+}
+
 /* .container-h1 {
     display: flex;
     flex-direction: column;
@@ -174,6 +178,7 @@ body {
     .frame-purple {
         height: auto;
         padding: 4rem 3rem 4rem 1rem;
+        gap: 4rem;
     }
     
 }
@@ -189,17 +194,26 @@ body {
     }
 
     .container-home {
-        margin: 1rem;
-        width: 92%;
+        margin: 2rem 1rem;
+        width: 88%;
     }
 
     .img-home {
-        width: 95%;
+        width: 98%;
     }
 
-    .btn-contact, .container-nav {
+    .data-home {
+        height: auto;
+        gap: 1.5rem;
+    }
+
+    /* .btn-contact, .container-nav {
         display: none;
 
+    } */
+
+    .hide-elements {
+        display: none;
     }
 
     .frame-purple {
