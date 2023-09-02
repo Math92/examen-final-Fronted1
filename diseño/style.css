@@ -17,8 +17,8 @@ body {
 }
 
 .logo {
-    width: 6.7rem;
-    height: 1.5rem;
+    width: 9rem;
+    height: 2.2rem;
 }
 
 .btn-contact {
@@ -182,7 +182,8 @@ body {
 .footer-nav a{
     text-decoration: none; 
     color: inherit;
-    font-size: 13px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
 }
 
 .footer-nav li {
