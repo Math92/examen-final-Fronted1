@@ -16,15 +16,6 @@ body {
     height: 174px;
 }
 
-/* .header-top {
-    display: flex;
-    justify-content: space-around;
-} */
-
-/* .header-bottom {
-    display: flex;
-} */
-
 .logo {
     width: 6.7rem;
     height: 1.5rem;
@@ -44,42 +35,37 @@ body {
     font-weight: 500;
 }
 
-.header-nav {
+.container-nav {
     display: flex;
     gap: 1.75rem;
 }
 
-.header-nav a {
+.container-nav li {
+    list-style: none;
+}
+
+.container-nav a {
     text-decoration: none; 
     color: #242E52;
     font-size: 13px;
 }
 
-.header-nav li {
-    list-style: none;
+.container-nav a:hover {
+    color: rgba(36, 46, 82, 0.6);
 }
-
-.footer-nav a{
-    text-decoration: none; 
-    color: inherit;
-    font-size: 13px;
-}
-
-.footer-nav li {
-    list-style: none;
-}
-
-/* .header-bottom {
-    display: flex;
-} */
 
 .container-home {
-    height: 461px;
+    height: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 5.4rem auto;
-    /* justify-content: center; */
-    width: 1090px;
+    flex-wrap: nowrap;
+    width: 85%;
+}
+
+.img-home {
+    width: auto;
 }
 
 .data-home {
@@ -106,9 +92,118 @@ body {
     text-align: right;
 }
 
+.frame-purple, .frame-purple2 {
+    background-color: #8B48BF;
+    display: flex;
+    color: #FFFFFF;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.frame-purple {
+    height: 168px;
+}
+
+.frame-purple2 {
+    height: 224px;
+}
+
+.frame-purple h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 41.26px;
+    width: 450px;
+}
+
+.frame-purple2 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47.84px;
+    letter-spacing: -0.5px;
+    /* height: 96px; */
+    width: 450px;
+}
+
+.frame-purple p {
+    font-weight: 500;
+    width: 450px;
+    line-height: 24.18px;
+}
+
+
+
+
+.footer-nav a{
+    text-decoration: none; 
+    color: inherit;
+    font-size: 13px;
+}
+
+.footer-nav li {
+    list-style: none;
+}
+
+.icon-menu {
+    display: none;
+}
+
 /* .container-h1 {
     display: flex;
     flex-direction: column;
     align-items: right;
     align-self: flex-end;
 } */
+
+@media screen and (max-width: 1024px) {
+
+    .container-nav {
+        gap: .75rem;
+    }
+
+    .container-home {
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+
+    .img-home {
+        width: 75%;
+    }
+
+    .frame-purple {
+        height: auto;
+        padding: 4rem 3rem 4rem 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .container-header {
+        height: 140px;
+    }
+
+    .icon-menu {
+        display: block;
+    }
+
+    .container-home {
+        margin: 1rem;
+        width: 92%;
+    }
+
+    .img-home {
+        width: 95%;
+    }
+
+    .btn-contact, .container-nav {
+        display: none;
+
+    }
+
+    .frame-purple {
+        background-color: #3CDDF3;
+    }
+    
+}
