@@ -21,7 +21,7 @@ body {
     height: 1.5rem;
 }
 
-.btn-contact {
+.btn-purple {
     background: #8B48BF;
     width: 134px;
     height: 44px;
@@ -33,6 +33,11 @@ body {
     color: rgba(255, 255, 255, 1);
     font-size: 13.18px;
     font-weight: 500;
+}
+
+.btn-purple:hover {
+    background-color: #8B48BFB2;
+    cursor: pointer;
 }
 
 .container-nav {
@@ -176,6 +181,18 @@ body {
     font-weight: 500;
     line-height: 25.52px;
     margin: 0 0 0 5.8rem;
+}
+
+.container-players {
+    margin: 2rem;
+}
+
+.container-players h3 {
+    color: #242E53;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 61.41px;
+    text-align: center;
 }
 
 
