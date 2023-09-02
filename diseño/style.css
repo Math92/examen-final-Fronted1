@@ -11,6 +11,11 @@ body {
 
 .container-header{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 174px;
+    flex-direction: column;
+    padding: 2rem;
     flex-direction: column;
 }
 
@@ -23,12 +28,21 @@ body {
     display: flex;
 }
 
+/* .header-top {
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* .header-bottom {
+    display: flex;
+} */
+
 .logo {
     width: 9rem;
     height: 2.2rem;
 }
 
-.btn-contact {
+.btn-purple {
     background: #8B48BF;
     width: 134px;
     height: 44px;
@@ -42,6 +56,15 @@ body {
     font-weight: 500;
 }
 
+
+.btn-purple:hover {
+    background-color: #8B48BFB2;
+    cursor: pointer;
+}
+
+/* .container-nav { */
+
+
 .contact-footer {
     background: rgba(139, 72, 191, 1);
     width: 4rem;
@@ -54,7 +77,11 @@ body {
     font-size: 0.9rem;
 }
 
+
+/* .header-nav { */
+
 .container-nav {
+
     display: flex;
     gap: 1.75rem;
 }
@@ -150,6 +177,7 @@ body {
     line-height: 24.18px;
 }
 
+
 .container-numbered {
     background-color: #FAFAFA;
     padding: 3rem 2.5rem;
@@ -196,6 +224,26 @@ body {
     line-height: 25.52px;
     margin: 0 0 0 5.8rem;
 }
+
+
+.container-players {
+    margin: 2rem;
+}
+
+.container-players h3 {
+    color: #242E53;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 61.41px;
+    text-align: center;
+}
+
+
+
+.footer-nav {
+    display: flex;
+}
+
 
 .footer-nav a{
     text-decoration: none; 
@@ -299,7 +347,9 @@ body {
         /* font-weight: 500;
         line-height: 25.52px; */
         margin: 0 1rem;
-    }
+
+  }
+
 }
 
 .container-h1 p {
